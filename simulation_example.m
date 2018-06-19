@@ -35,13 +35,13 @@ train_index(nn+1:end)=[];
 
 train_data = data(train_index,:);
 X_train = fillna(train_data(:,1:q)); 
-%X_train = zscore(X_train); %%%%%归一化
+X_train = zscore(X_train); %%%%%归一化
 Censored_train=train_data(:,q+1);
 y_train=train_data(:,q+2);
 
 test_data = data(test_index,:);
 X_test = fillna(test_data(:,1:q));
-%X_test=zscore(X_test);
+X_test=zscore(X_test);
 Censored_test=test_data(:,q+1);
 y_test=test_data(:,q+2);
 
