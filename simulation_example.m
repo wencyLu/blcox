@@ -127,7 +127,8 @@ t_mean_blcox=t_sum_blcox/t;
 mse_mean_glmcox=mse_sum_glmcox/t;
 mse_mean_blcox=mse_sum_blcox/t;
 
-f_mean_g = f_select_glmcox/t;
-f_mean_b = f_select_blcox/t;
-r_mean_g = real_f_glmcox/t;  
-r_mean_b = real_f_blcox/t; 
+f_mean_g = f_select_glmcox/c_n_glmcox;
+f_mean_b = f_select_blcox/c_n_blcox;
+r_mean_g = real_f_glmcox/c_n_glmcox;  
+r_mean_b = real_f_blcox/c_n_blcox; 
+
