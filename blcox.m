@@ -17,7 +17,7 @@ X = X(idx,:);
 b=zeros(p,1);
 a=0.1;
 bx=0.1;
-for ii=1:20
+for ii=1:10
 %% updata b
 [z,Ax,~]=logl(X,b,cens);
 b=solve_byccd(z,Ax,lambda);
