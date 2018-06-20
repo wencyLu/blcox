@@ -87,5 +87,5 @@ c_mean_blcox=c_sum_blcox/c_n_blcox;
 t_mean_glmcox=t_sum_glmcox/t;
 t_mean_blcox=t_sum_blcox/t;
 
-f_mean_g = f_select_glmcox/t;
-f_mean_b = f_select_blcox/t;
+f_mean_g = f_select_glmcox/c_n_glmcox;
+f_mean_b = f_select_blcox/c_n_blcox;
